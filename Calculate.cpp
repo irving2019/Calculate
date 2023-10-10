@@ -9,7 +9,7 @@ class calc
 public: void start()
 {
     char tip;
-    cout << "\nВыберите тип калькулятора: " << endl << endl;
+    cout << "Выберите тип калькулятора: " << endl << endl;
     cout << "1 - инженерный " << endl;
     cout << "2 - обычный " << endl << endl;
 
