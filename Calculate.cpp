@@ -33,7 +33,6 @@ public: void start()
 
         start();
     }
-
 }
 
 public: void math_calc()
@@ -61,6 +60,7 @@ public: void math_calc()
     switch (choise)
     {
     case 1:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nСинус " << count1 << " Равен: " << sin(count1) << endl;
@@ -68,6 +68,7 @@ public: void math_calc()
         start();
 
     case 2:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nКосинус " << count1 << " Равен: " << cos(count1) << endl;
@@ -75,6 +76,7 @@ public: void math_calc()
         start();
 
     case 3:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nТангенс " << count1 << " Равен: " << tan(count1) << endl;
@@ -82,6 +84,7 @@ public: void math_calc()
         start();
 
     case 4:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nКотангенс " << count1 << " Равен: " << cos(count1) / sin(count1) << endl;
@@ -89,6 +92,7 @@ public: void math_calc()
         start();
 
     case 5:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nАрксинус " << count1 << " Равен: " << (asin(count1) * 180.0 / PI) << endl;
@@ -96,6 +100,7 @@ public: void math_calc()
         start();
 
     case 6:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nАрккосинус " << count1 << " Равен: " << (acos(count1) * 180.0 / PI) << endl;
@@ -103,6 +108,7 @@ public: void math_calc()
         start();
 
     case 7:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nАрктангенс " << count1 << " Равен: " << (atan(count1) * 180.0 / PI) << endl;
@@ -110,6 +116,7 @@ public: void math_calc()
         start();
 
     case 8:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nКвадратный корень " << count1 << " Равен: " << sqrt(count1) << endl;
@@ -117,6 +124,7 @@ public: void math_calc()
         start();
 
     case 9:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nКубический корень " << count1 << " Равен: " << cbrt(count1) << endl;
@@ -124,6 +132,7 @@ public: void math_calc()
         start();
 
     case 10:
+
         cout << "\nВведите значение: " << endl << endl;
         cin >> count1;
         cout << "\nМодуль " << "[" << count1 << "]" << " Равен: " << abs(count1) << endl;
@@ -131,6 +140,7 @@ public: void math_calc()
         start();
 
     case 11:
+
         cout << "\nВведите число:\n" << endl;
         cin >> count1;
         cout << "\n";
@@ -153,8 +163,6 @@ public: void math_calc()
 
         start();
     }
-
-
 }
 
 public: void calculate()
@@ -225,7 +233,6 @@ public: void calculate()
         cout << "Перезагрузка программы..." << endl;
 
         start();
-
     }
 
     cout << "\nПродолжить вычисления? Y/N" << endl << endl;
@@ -244,7 +251,6 @@ public: void calculate()
         cout << "\nError 404! Not Found!" << endl;
         cout << "Ответ не найден!" << endl;
         cout << "Завершение программы!" << endl;
-
     }
 }
 
