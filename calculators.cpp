@@ -1,7 +1,6 @@
 #include <iostream>
 #include <locale.h>
 #include <cmath>
-#include <Windows.h>
 #define PI 3.14159265
 using namespace std;
 
